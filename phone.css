@@ -1,0 +1,67 @@
+@media screen and (max-width:1000px) {
+     .navcontainer{
+        display: grid;
+        grid-template-columns: 40% 10% 40%;
+        box-shadow: 0 4px #e1eeea;
+     }
+     
+     .logo div img{
+        margin: 10px;
+        height: 55px;
+        width: 55px;
+        border-radius: 20px;
+     }
+    .logo div h3{
+        font-size: 45px;
+        margin: 10px;
+    }
+    .navbar{
+        visibility: hidden;
+        
+    }
+    .user{
+        visibility: hidden;
+    }
+
+
+    .firstcontainer{
+        grid-template-columns: 100%;
+        height: 110vh;
+        
+    }
+    .sec2 .img1{
+        /* position:relative; */
+        left: 10%;
+        top: 55%;
+        justify-content: baseline;
+        align-items: baseline;
+       
+    }
+    
+    .sec2 .img2{
+        /* position: relative; */
+        left: 30%;
+        top: 80%;
+        justify-content: baseline;
+        align-items: baseline;
+       
+    }
+    
+    .sec2 .img3{
+        /* position: relative; */
+        left: 60%;
+        top: 60%;
+        justify-content: baseline;
+        align-items: baseline;
+       
+    }
+    
+    .secondcontainer{
+        grid-template-columns: auto auto;
+    }
+    .thirdcontainer .mentor{
+        grid-template-columns: auto;
+
+    }
+    
+}

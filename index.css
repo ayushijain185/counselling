@@ -23,7 +23,7 @@ body{
     width: 100%;
     background-color: white;
     box-shadow: 0 4px #e1eeea;
-    position:fixed;
+    position:sticky;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -105,7 +105,8 @@ li a:hover{
 }
 .firstcontainer{
     grid-area: firstcontainer;
-    height: 80vh;
+    height: 60vh;
+     margin-top:10vh;
     background-color: white;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -162,9 +163,10 @@ li a:hover{
 }
 .sec2 .img1{
     position:absolute;
+    margin:10px;
     left: 60%;
-    top: 15%;
-    height: 100px;
+    top: 10%;
+    height: 200px;
     z-index: 0;
   
    
@@ -173,8 +175,8 @@ li a:hover{
 .sec2 .img2{
     position: absolute;
     left: 72%;
-    top: 50%;
-    height: 100px;
+    top: 30%;
+    height: 200px;
    
 }
 
@@ -182,7 +184,7 @@ li a:hover{
     position: absolute;
     left: 83%;
     top: 20%;
-    height: 100px;
+    height: 200px;
    
 }
 .sec2 .img1 img{

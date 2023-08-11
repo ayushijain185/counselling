@@ -113,6 +113,7 @@ li a:hover{
 .sec1{
     margin: 10px;
     padding: 5px;
+    margin-top:20px;
 
 }
 .sec1 h1{
@@ -164,7 +165,7 @@ li a:hover{
      position:absolute;
     left: 60%;
     top: 15%;
-    height: 150px;
+    height: 180px;
     margin: 10px;
     z-index: 0;
   
@@ -174,8 +175,8 @@ li a:hover{
 .sec2 .img2{
     position: absolute;
     left: 75%;
-    top: 45%;
-    height: 150px;
+    top: 47%;
+    height: 180px;
    
 }
 
@@ -183,7 +184,7 @@ li a:hover{
     position: absolute;
     left: 85%;
     top: 20%;
-    height: 150px;
+    height: 180px;
    
 }
 

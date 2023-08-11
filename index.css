@@ -106,7 +106,7 @@ li a:hover{
 .firstcontainer{
     grid-area: firstcontainer;
     height: 60vh;
-    margin-top: 50px;
+    margin-top: 10px;
     background-color: white;
     display: grid;
     grid-template-columns: 60% 40%;

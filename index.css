@@ -29,6 +29,7 @@ body{
     right: 0px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    z-index:1;
 }
 .logo{
     background-color:white;

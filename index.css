@@ -167,35 +167,53 @@ li a:hover{
     position:absolute;
     left: 60%;
     top: 15%;
-    height: 180px;
+    height: 160px;
     margin: 10px;
     z-index: 0;
-  
+    animation: move1 4s 2s infinite;
    
 }
 
 .sec2 .img2{
     position: absolute;
-    left: 72%;
+    left: 75%;
     top: 50%;
     height: 180px;
+    animation: move2 6s 3s infinite;
    
 }
 
 .sec2 .img3{
     position: absolute;
-    left: 83%;
-    top: 20%;
+    left: 87%;
+    top: 30%;
     height: 180px;
+    animation: move3 5s 2.5s infinite;
    
 }
 
-@keyframes move{
+@keyframes move1{
     from{
-        top: 40vh;
+        top: 50vh;
     }
     to{
-        top: -1vh;
+        top:-10vh;
+    }
+}
+@keyframes move2{
+    from{
+        top: 55vh;
+    }
+    to{
+        top: -10vh;
+    }
+}
+@keyframes move3{
+    from{
+        top: 53vh;
+    }
+    to{
+        top: -10vh;
     }
 }
 .secondcontainer{

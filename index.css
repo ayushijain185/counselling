@@ -23,13 +23,13 @@ body{
     width: 100%;
     background-color: white;
     box-shadow: 0 4px #e1eeea;
-    position:sticky;
+    position:fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    z-index:1;
+    z-index: 1;
 }
 .logo{
     background-color:white;
@@ -106,7 +106,7 @@ li a:hover{
 }
 .firstcontainer{
     grid-area: firstcontainer;
-    height: 70vh;
+    height: 83vh;
     background-color: white;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -114,13 +114,14 @@ li a:hover{
 .sec1{
     margin: 10px;
     padding: 5px;
-    margin-top:20px;
+    margin-top: 15px;
 
 }
 .sec1 h1{
     font-weight: bold;
     color: #046930;
     margin-left: 15%;
+    margin-top: 10%;
     padding: 2%;
     font-size: 60px;
 }
@@ -163,7 +164,7 @@ li a:hover{
     
 }
 .sec2 .img1{
-     position:absolute;
+    position:absolute;
     left: 60%;
     top: 15%;
     height: 180px;
@@ -175,15 +176,15 @@ li a:hover{
 
 .sec2 .img2{
     position: absolute;
-    left: 75%;
-    top: 47%;
+    left: 72%;
+    top: 50%;
     height: 180px;
    
 }
 
 .sec2 .img3{
     position: absolute;
-    left: 85%;
+    left: 83%;
     top: 20%;
     height: 180px;
    
